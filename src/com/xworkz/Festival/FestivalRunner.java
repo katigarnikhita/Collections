@@ -1,8 +1,11 @@
 package com.xworkz.Festival;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 public class FestivalRunner {
+
+	private static String collection;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -37,6 +40,37 @@ public class FestivalRunner {
         String name28="janmashatami";
         String name29="Rakshadummi";
         String name30="dBaisikhi";
+        String name31="pongal";
+        String name32="govardhan puja";
+        String name33="camel";
+        String name34="chhath";
+        String name35="margashirsh";
+        String name36="ugadi";
+        String name37="makarsankaranti";
+        String name38="mahaveer jayanti";
+        String name39="chritmas day";
+        String name40="deccen";
+        String name41="bramostsavam";
+        String name42="reh";
+        String name43="Boori Boot";
+        String name44="Myoko";
+        String name45="Dree";
+        String name46="Losar";
+        String name47="gudi padwa";
+        String name48="mahavir";
+        String name49="good friday";
+        String name50="buddha";
+        String name51="nagpanchami";
+        String name52="raksha bandhan";
+        String name53="parsi new year";
+        String name54="edi ul adha";
+        String name55="dussera";
+        String name56="sumburn";
+        String name57="karwa chauth";
+        String name58="bhaidooj";
+        String name59="chritmas day";
+        String name60="ugadi";
+        
         
         
         
@@ -70,7 +104,6 @@ public class FestivalRunner {
 	      ref.add(name20);
 	      ref.add(name21);
 	      ref.add(name22);
-	    
 	      ref.add(name23);
 	      ref.add(name24);
 	      ref.add(name25);
@@ -79,36 +112,52 @@ public class FestivalRunner {
 	      ref.add(name28);
 	      ref.add(name29);
 	      ref.add(name30);
+	      ref.add(name31);
+	      ref.add(name32);
+	      ref.add(name33);
+	      ref.add(name34);
+	      ref.add(name35);
+	      ref.add(name36);
+	      ref.add(name37);
+	      ref.add(name38);
+	      ref.add(name39);
+	      ref.add(name40);
+	      ref.add(name41);
+	      ref.add(name42);
+	      ref.add(name43);
+	      ref.add(name44);
+	      ref.add(name45);
+	      ref.add(name46);
+	      ref.add(name47);
+	      ref.add(name48);
+	      ref.add(name49);
+	      ref.add(name50);
+	      ref.add(name51);
+	      ref.add(name52);
+	      ref.add(name53);
+	      ref.add(name54);
+	      ref.add(name55);
+	      ref.add(name56);
+	      ref.add(name57);
+	      ref.add(name58);
+	      ref.add(name59);
+	      ref.add(name60);
+	      System.out.println(ref.size());
 	      
-	      System.out.println(name1);
-	      System.out.println("holi");
-	      System.out.println("deevali");
-	      System.out.println("ganeshafetival");
-	      System.out.println("ugadi");
-	      System.out.println("makarsankaranti");
-	      System.out.println("mahaveer jayanti");
-	      System.out.println("chritmas day");
-	      System.out.println("deccen");
-	      System.out.println("bramostsavam");
-	      System.out.println("reh");
-	      System.out.println("Boori Boot");
-	      System.out.println("Myoko");
-	      System.out.println("Dree");
-	      System.out.println("Losar");
-	      System.out.println("Murung");
-	      System.out.println("Solang");
-	      System.out.println("Mopin");
-	      System.out.println("Monpa");
-	      System.out.println("Ambubachi");
-	      System.out.println("Dehing");
-	      System.out.println("chath");
-	      System.out.println("maghi");
-	      System.out.println("purnima");
-	      System.out.println("sumburn");
-	      System.out.println("navratri");
-	      System.out.println("janmashatami");
-	      System.out.println("Rakshadummi");
-	      System.out.println("dBaisikhi");
+	     ref.remove(name40);
+	     System.out.println(ref.size());
+	     
+	     
+	     Collection<String> obj01=new ArrayList<String>(60);
+	     Iterator itr=obj01.iterator();
+	     while(itr.hasNext()) {
+	 		System.out.println(itr.next());
+	 	}
+	     
+	     System.out.println("collection is empty or not:"+ref.isEmpty());	
+	 	System.out.println("Collection size:"+ref.size());
+
+	      
 	      
 	      System.out.println("Enter actorsname ");
 	        String actorsname1="yash";
@@ -141,6 +190,45 @@ public class FestivalRunner {
 	        String actorsname28="aindrita";
 	        String actorsname29="shanvi";
 	        String actorsname30="divya";
+	        String actorsname31="Deepika";
+	        String actorsname32="alia Bhatt";
+	        String actorsname33="anushaka";
+	        String actorsname34="kartrina";
+	        String actorsname35="kareena";
+	        String actorsname36="priyaka";
+	        String actorsname37="sonam kapoor";
+	        String actorsname38="sonam";
+	        String actorsname39="kangana ranaut";
+	        String actorsname40="shradha kapoor";
+	        String actorsname41="aishwary Rai";
+	        String actorsname42="kriti";
+	        String actorsname43="anushri";
+	        String actorsname44="deepika";
+	        String actorsname45="prema";
+	        String actorsname46="parineeta";
+	        String actorsname47="madhuri";
+	        String actorsname48="sudha";
+	        String actorsname49="kiaea";
+	        String actorsname50="tabu";
+	        String actorsname51="priya";
+	        String actorsname52="sridevi";
+	        String actorsname53="preity";
+	        String actorsname54="deepa";
+	        String actorsname55="sruti";
+	        String actorsname56="rani";
+	        String actorsname57="disha";
+	        String actorsname58="aindrita";
+	        String actorsname59="shanvi";
+	        String actorsname60="divya";
+	        
+	        
+	        
+	        ref.remove(actorsname30);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> actor=new ArrayList<String>(60);
+		     Iterator itr1=actor.iterator();
 	        
 	        
 	        
@@ -180,40 +268,7 @@ public class FestivalRunner {
 	      ref1.add( actorsname29);
 	      ref1.add( actorsname30);
 	     
-	      System.out.println(actorsname1);
-	      System.out.println(actorsname2);
-    		
-	      System.out.println(actorsname3);
-    		
-	      System.out.println(actorsname4);
-	      System.out.println(actorsname5);
-	      System.out.println(actorsname6);
-	      System.out.println(actorsname7);
-	      System.out.println(actorsname8);
-	      System.out.println(actorsname9);
-	      System.out.println(actorsname10);
-	      System.out.println(actorsname11);
-	      System.out.println(actorsname12);
-	      System.out.println(actorsname13);
-	      System.out.println(actorsname14);
-	      System.out.println(actorsname15);
-    		
-	      System.out.println(actorsname16);
-	      System.out.println(actorsname17);
-	      System.out.println(actorsname18);
-	      System.out.println(actorsname19);
-	      System.out.println(actorsname20);
-	      System.out.println(actorsname21);
-	      System.out.println(actorsname22);
-	      System.out.println(actorsname23);
-	      System.out.println(actorsname24);
-	      System.out.println(actorsname25);
-	      System.out.println(actorsname26);
-	      System.out.println(actorsname27);
-	      System.out.println(actorsname28);
-	      System.out.println(actorsname29);
-	      System.out.println(actorsname30);
-    		
+	      System.out.println(ref1.size());
 	      		
 	      System.out.println("Enter Languages");
 	      String langname1="kannada";
@@ -221,7 +276,6 @@ public class FestivalRunner {
 	      String langname3="Telgu";
 	      String langname4="Tamil";
 	      String langname5="marathi";
-	      
 	      String langname6= "Assamese";
 	      String langname7= "Bengali";
 	      String langname8=" Sindhi";
@@ -232,7 +286,6 @@ public class FestivalRunner {
 	      String langname13="Telgu";
 	      String langname14=" Urdu";
 	      String langname15="Santhali";
-	      
 	      String langname16= "Assamese";
 	      String langname17= "Bengali";
 	      String langname18=" Sanskrit";
@@ -243,17 +296,59 @@ public class FestivalRunner {
 	      String langname23="Telgu";
 	      String langname24="Sanskrit";
 	      String langname25=" Punjabi";
-	      
 	      String langname26= "Oriya";
 	      String langname27= "Nepali";
 	      String langname28=" Marathi";
 	      String langname29="Manipuri";
 	      String langname30="Malayalam";
+	      String langname31="english";
+	      String langname32="french";
+	      String langname33="spanish";
+	      String langname34="russian";
+	      String langname35="arabic";
+	      String langname36= "german language";
+	      String langname37= "chiness language";
+	      String langname38=" hindi";
+	      String langname39="japanis";
+	      String langname40="Kashmiri";
+	      String langname41="bengali";
+	      String langname42="koren";
+	      String langname43="Temil";
+	      String langname44=" ploish";
+	      String langname45="turkish";
+	      String langname46= "Assamese";
+	      String langname47= "dutch";
+	      String langname48=" persian";
+	      String langname49="Romanian";
+	      String langname50="Punjabi";
+	      String langname51="Oriya";
+	      String langname52="Nepali";
+	      String langname53="Telgu";
+	      String langname54="Sanskrit";
+	      String langname55=" Punjabi";
+	      String langname56= "Oriya";
+	      String langname57= "Nepali";
+	      String langname58=" greek";
+	      String langname59="malay";
+	      String langname60="Czech";
+	      System.out.println(ref1.size());
+	      
+	      
+	      ref.remove(langname42);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> lang=new ArrayList<String>(60);
+		     Iterator itr2=lang.iterator();
+	      
+	      
+	      
+	      
+	      
+	      
+	      
 	      
 	      System.out.println("Enter the moviename");
-	      
-	    		  
-	     
 	      String moviename1="Dangle";
 	      String moviename2="kgf";
 	      String moviename3="raajkumar";
@@ -284,6 +379,48 @@ public class FestivalRunner {
 	      String moviename28="hebbuli";
 	      String moviename29="jani";
 	      String moviename30="kataka";
+	      String moviename31="Dangle";
+	      String moviename32="tadap";
+	      String moviename33="final truth";
+	      String moviename34="akhanda";
+	      String moviename35="marakkar";
+	      String moviename36="resident evil";
+	      String moviename37="arrival";
+	      String moviename38="nocture";
+	      String moviename39="mayabazar";
+	      String moviename40="gengetalman";
+	      String moviename41="malgudi days";
+	      String moviename42="beatity full mansu";
+	      String moviename43="bb";
+	      String moviename44="blue eyes";
+	      String moviename45="brand";
+	      String moviename46="chamak";
+	      String moviename47="chowka";
+	      String moviename48="college kumar";
+	      String moviename49="crack";
+	      String moviename50="darpana";
+	      String moviename51="deal";
+	      String moviename52="dhamki";
+	      String moviename53="dhawi";
+	      String moviename54="e1";
+	      String moviename55="ee kararava";
+	      String moviename56="gayatri";
+	      String moviename57="happy journey";
+	      String moviename58="war dog";
+	      String moviename59="jani";
+	      String moviename60="jack strange";
+	      
+	      
+	      
+	      ref.remove(moviename46);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> movie=new ArrayList<String>(60);
+		     Iterator itr3=movie.iterator();
+	      
+	      
+	      
 	      
 	      
 	      
@@ -318,38 +455,39 @@ public class FestivalRunner {
 	      ref2.add (moviename28);
 	      ref2.add( moviename29);
 	      ref2.add( moviename30);
+	      ref2.add(moviename31 );
+	      ref2.add(moviename32);
+	      ref2.add(moviename33);
+	      ref2.add(moviename34);
+	      ref2.add(moviename35);
+	      ref2.add( moviename36);
+	      ref2.add (moviename37);
+	      ref2.add(moviename38);
+	      ref2.add( moviename39);
+	      ref2.add( moviename40);
+	      ref2.add (moviename41);
+	      ref2.add (moviename42);
+	      ref2.add(moviename43);
+	      ref2.add(moviename44);
+	      ref2.add (moviename45);
+	      ref2.add(moviename46);
+	      ref2.add(moviename47);
+	      ref2.add(moviename48);
+	      ref2.add (moviename49);
+	      ref2.add (moviename50);
+	      ref2.add( moviename51);
+	      ref2.add(moviename52);
+	      ref2.add (moviename53);
+	      ref2.add(moviename54);
+	      ref2.add (moviename55);
+	      ref2.add(moviename56);
+	      ref2.add (moviename57);
+	      ref2.add (moviename58);
+	      ref2.add( moviename59);
+	      ref2.add( moviename60);
 	      
 	      
-	      System.out.println(moviename1);
-	      System.out.println(moviename2);
-	      System.out.println(moviename3);
-	      System.out.println(moviename4);
-	      System.out.println(moviename5);
-	      System.out.println(moviename6);
-	      System.out.println(moviename7);
-	      System.out.println(moviename8);
-	      System.out.println(moviename9);
-	      System.out.println(moviename10);
-	      System.out.println(moviename11);
-	      System.out.println(moviename12);
-	      System.out.println(moviename13);
-	      System.out.println(moviename14);
-	      System.out.println(moviename15);
-	      System.out.println(moviename16);
-	      System.out.println(moviename17);
-	      System.out.println(moviename18);
-	      System.out.println(moviename19);
-	      System.out.println(moviename20);
-	      System.out.println(moviename21);
-	      System.out.println(moviename22);
-	      System.out.println(moviename23);
-	      System.out.println(moviename24);
-	      System.out.println(moviename25);
-	      System.out.println(moviename26);
-	      System.out.println(moviename27);
-	      System.out.println(moviename28);
-	      System.out.println(moviename29);
-	      System.out.println(moviename30);
+	      System.out.println(ref2.size());
 	      
 	      System.out.println("enter the city name");
 	      
@@ -383,6 +521,47 @@ public class FestivalRunner {
 	      String city28="dharwad";
 	      String city29="belagivi";
 	      String city30="hanpi";
+	      String city31="hyderabad";
+	      String city32="kolkata";
+	      String city33="chennai";
+	      String city34="mumbi";
+	      String city35="ahmedabad";
+	      String city36="lucknow";
+	      String city37="jaipur";
+	      String city38="patna";
+	      String city39="delhi";
+	      String city40="kanpur";
+	      String city41="pune";
+	      String city42="laxmeshwar";
+	      String city43="allahabad";
+	      String city44="bhapal";
+	      String city45="kochi";
+	      String city46="Ttiruvantampura";
+	      String city47="pondicherry";
+	      String city48="varansi";
+	      String city49="puna";
+	      String city50="salopur";
+	      String city51="udapi";
+	      String city52="hangal";
+	      String city53="koppal";
+	      String city54="rona";
+	      String city55="kolar";
+	      String city56="baglkot";
+	      String city57="chikmaglure";
+	      String city58="dharwad";
+	      String city59="belagivi";
+	      String city60="surath";
+	      
+	      
+	      ref.remove(city30);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> city=new ArrayList<String>(60);
+		     Iterator itr4=city.iterator();
+	      
+	      
+	      
 	      
 	      
 	      
@@ -417,43 +596,44 @@ public class FestivalRunner {
 	      ref3.add (city28);
 	      ref3.add( city29);
 	      ref3.add( city30);
-	      
-	      
-	      System.out.println(city1);
-	      System.out.println(city2);
-	      System.out.println(city3);
-	      System.out.println(city4);
-	      System.out.println(city5);
-	      System.out.println(city6);
-	      System.out.println(city7);
-	      System.out.println(city8);
-	      System.out.println(city9);
-	      System.out.println(city10);
-	      System.out.println(city11);
-	      System.out.println(city12);
-	      System.out.println(city13);
-	      System.out.println(city14);
-	      System.out.println(city15);
-	      System.out.println(city16);
-	      System.out.println(city17);
-	      System.out.println(city18);
-	      System.out.println(city19);
-	      System.out.println(city20);
-	      System.out.println(city21);
-	      System.out.println(city22);
-	      System.out.println(city23);
-	      System.out.println(city24);
-	      System.out.println(city25);
-	      System.out.println(city26);
-	      System.out.println(city27);
-	      System.out.println(city28);
-	      System.out.println(city29);
-	      System.out.println(city30);
-	      
+	      ref3.add(city31 );
+	      ref3.add(city32);
+	      ref3.add(city33);
+	      ref3.add(city34);
+	      ref3.add(city35);
+	      ref3.add(city36);
+	      ref3.add (city37);
+	      ref3.add(city38);
+	      ref3.add( city39);
+	      ref3.add( city40);
+	      ref3.add (city41);
+	      ref3.add (city42);
+	      ref3.add(city43);
+	      ref3.add(city44);
+	      ref3.add (city45);
+	      ref3.add(city46);
+	      ref3.add(city47);
+	      ref3.add(city48);
+	      ref3.add (city49);
+	      ref3.add (city50);
+	      ref3.add( city51);
+	      ref3.add(city52);
+	      ref3.add (city53);
+	      ref3.add(city54);
+	      ref3.add (city55);
+	      ref3.add(city56);
+	      ref3.add (city57);
+	      ref3.add (city58);
+	      ref3.add( city59);
+	      ref3.add( city60);
 	      
 	      
 	      
-System.out.println("enter the webseries name");
+	      System.out.println(ref3.size());
+	      
+	      
+	      
+
 	      
 	      
 	      
@@ -494,6 +674,48 @@ System.out.println("enter the car name");
 	      String car28="Hyundral";
 	      String car29="kia Seltos";
 	      String car30="Hyundral";
+	      String car31="Ford";
+	      String car32="Toyata Astra";
+	      String car33=" volkswagen";
+	      String car34="Nissan motor";
+	      String car35="jaguar";
+	      String car36="kadur";
+	      String car37="Honda";
+	      String car38="audi";
+	      String car39="mercedes Benz";
+	      String car40="Porsche";
+	      String car41="BMW";
+	      String car42="Milsublishi";
+	      String car43="tata Nexon";
+	      String car44="Maserati";
+	      String car45="Lexus";
+	      String car46="jeep";
+	      String car47="Tata altroz";
+	      String car48="Hyundral creta";
+	      String car49="land rover";
+	      String car50="kia Seltos";
+	      String car51="Hyundai";
+	      String car52="tata herriree";
+	      String car53="chevrolet";
+	      String car54="Lexus";
+	      String car55="Hyundai";
+	      String car56="Maserti";
+	      String car57="jeep";
+	      String car58="Hyundral";
+	      String car59="kia Seltos";
+	      String car60="Hyundral";
+	      
+	      
+	      
+	      ref.remove(car30);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> car=new ArrayList<String>(60);
+		     Iterator itr5=city.iterator();
+	      
+	      
+	      
 	      
 	      
 	      
@@ -528,39 +750,39 @@ System.out.println("enter the car name");
 	      ref5.add (car28);
 	      ref5.add( car29);
 	      ref5.add( car30);
+	      ref5.add(car31 );
+	      ref5.add(car32);
+	      ref5.add(car33);
+	      ref5.add(car34);
+	      ref5.add(car35);
+	      ref5.add(car36);
+	      ref5.add (car37);
+	      ref5.add(car38);
+	      ref5.add( car39);
+	      ref5.add( car40);
+	      ref5.add (car41);
+	      ref5.add (car42);
+	      ref5.add(car43);
+	      ref5.add(car44);
+	      ref5.add (car45);
+	      ref5.add(car46);
+	      ref5.add(car47);
+	      ref5.add(car48);
+	      ref5.add (car49);
+	      ref5.add (car50);
+	      ref5.add( car51);
+	      ref5.add(car52);
+	      ref5.add (car53);
+	      ref5.add(car54);
+	      ref5.add (car55);
+	      ref5.add(car56);
+	      ref5.add (car57);
+	      ref5.add (car58);
+	      ref5.add( car59);
+	      ref5.add( car60);
 	      
 	      
-	      System.out.println(car1);
-	      System.out.println(car2);
-	      System.out.println(car3);
-	      System.out.println(car4);
-	      System.out.println(car5);
-	      System.out.println(car6);
-	      System.out.println(car7);
-	      System.out.println(car8);
-	      System.out.println(car9);
-	      System.out.println(car10);
-	      System.out.println(car11);
-	      System.out.println(car12);
-	      System.out.println(car13);
-	      System.out.println(car14);
-	      System.out.println(car15);
-	      System.out.println(car16);
-	      System.out.println(car17);
-	      System.out.println(car18);
-	      System.out.println(car19);
-	      System.out.println(car20);
-	      System.out.println(car21);
-	      System.out.println(car2);
-	      System.out.println(car23);
-	      System.out.println(car24);
-	      System.out.println(car25);
-	      System.out.println(car26);
-	      System.out.println(car27);
-	      System.out.println(car28);
-	      System.out.println(car29);
-	      System.out.println(car30);
-	       
+	     System.out.println(ref5.size());
 	      
 System.out.println("enter the bike name");
 
@@ -594,6 +816,45 @@ System.out.println("enter the bike name");
 	      String bike28="hero splendor";
 	      String bike29="Bajaj";
 	      String bike30="aprillia";
+	      String bike31="Tvs";
+	      String bike32="Honda";
+	      String bike33="Honda";
+	      String bike34="Honda";
+	      String bike35="yamaha";
+	      String bike36="suzki";
+	      String bike37="ktm";
+	      String bike38="hero motocorp";
+	      String bike39="bmw";
+	      String bike40="bajaj pulsar";
+	      String bike41="Harley davison";
+	      String bike42="royal enfield";
+	      String bike43="ducati";
+	      String bike44="triumph";
+	      String bike45="hero splendor";
+	      String bike46="beneli";
+	      String bike47="aprillia";
+	      String bike48="honda 6g";
+	      String bike49="tvs apache";
+	      String bike50="bajaj pulsar";
+	      String bike51="bajaj";
+	      String bike52="evolet";
+	      String bike53="tvs";
+	      String bike54="joy e bike";
+	      String bike55="beneli";
+	      String bike56="honda";
+	      String bike57="tvs apache";
+	      String bike58="hero splendor";
+	      String bike59="Bajaj";
+	      String bike60="aprillia";
+	      
+	      
+	      ref.remove(bike30);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> bike=new ArrayList<String>(60);
+		     Iterator itr6=bike.iterator();
+	      
 	      
 	      
 	      
@@ -627,43 +888,45 @@ System.out.println("enter the bike name");
 	      ref6.add (bike28);
 	      ref6.add( bike29);
 	      ref6.add( bike30);
+	      ref6.add(bike31);
+	      ref6.add(bike32);
+	      ref6.add(bike33);
+	      ref6.add(bike34);
+	      ref6.add(bike35);
+	      ref6.add(bike36);
+	      ref6.add (bike37);
+	      ref6.add(bike38);
+	      ref6.add( bike39);
+	      ref6.add( bike40);
+	      ref6.add (bike41);
+	      ref6.add (bike42);
+	      ref6.add(bike43);
+	      ref6.add(bike44);
+	      ref6.add (bike45);
+	      ref6.add(bike46);
+	      ref6.add(bike47);
+	      ref6.add(bike48);
+	      ref6.add (bike49);
+	      ref6.add (bike50);
+	      ref6.add( bike51);
+	      ref6.add(bike52);
+	      ref6.add (bike53);
+	      ref6.add(bike54);
+	      ref6.add (bike55);
+	      ref6.add(bike56);
+	      ref6.add (bike57);
+	      ref6.add (bike58);
+	      ref6.add( bike59);
+	      ref6.add( bike60);
 	      
 	      
 	      
-	      System.out.println(bike3);
-	      System.out.println(bike4);
-	      System.out.println(bike5);
-	      System.out.println(bike6);
-	      System.out.println(bike7);
-	      System.out.println(bike8);
-	      System.out.println(bike9);
-	      System.out.println(bike10);
-	      System.out.println(bike11);
-	      System.out.println(bike12);
-	      System.out.println(bike13);
-	      System.out.println(bike14);
-	      System.out.println(bike15);
-	      System.out.println(bike16);
-	      System.out.println(bike17);
-	      System.out.println(bike18);
-	      System.out.println(bike19);
-	      System.out.println(bike20);
-	      System.out.println(bike21);
-	      System.out.println(bike22);
-	      System.out.println(bike23);
-	      System.out.println(bike24);
-	      System.out.println(bike25);
-	      System.out.println(bike26);
-	      System.out.println(bike27);
-	      System.out.println(bike28);
-	      System.out.println(bike29);
-	      System.out.println(bike30);
 	      
-	      
+	     System.out.println(ref6.size());
 	      
 	      
 System.out.println("enter lipsticks name");
-     String name="maybelline";
+     String lname1="maybelline";
      String lname2="Dior";
      String lname3="lakme";
      String lname4="tom ford";
@@ -674,6 +937,65 @@ System.out.println("enter lipsticks name");
      String lname9="bobbi brow";
      String lname10="loreal";
      String lname11="revlon";
+     String lname12="maybelline";
+     String lname13="lakme";
+     String lname14="tom ford";
+     String lname15="dior rouge";
+     String lname16="rimmel lasting";
+     String lname17="lotus";
+     String lname18="colorbar";
+     String lname19="bobbi brow";
+     String lname20="loreal";
+     String lname21="revlon";
+     String lname22="Dior";
+     String lname23="lakme";
+     String lname24="tom ford";
+     String lname25="dior rouge";
+     String lname26="rimmel lasting";
+     String lname27="lotus";
+     String lname28="colorbar";
+     String lname29="bobbi brow";
+     String lname30="loreal";
+     String lname31="revlon";
+     String lname32="Dior";
+     String lname33="lakme";
+     String lname34="tom ford";
+     String lname35="dior rouge";
+     String lname36="rimmel lasting";
+     String lname37="lotus";
+     String lname38="colorbar";
+     String lname39="bobbi brow";
+     String lname40="loreal";
+     String lname41="revlon";
+     String lname42="Dior";
+     String lname43="lakme";
+     String lname44="tom ford";
+     String lname45="dior rouge";
+     String lname46="rimmel lasting";
+     String lname47="lotus";
+     String lname48="colorbar";
+     String lname49="bobbi brow";
+     String lname50="loreal";
+     String lname51="revlon";
+     String lname52="Dior";
+     String lname53="lakme";
+     String lname54="tom ford";
+     String lname55="dior rouge";
+     String lname56="rimmel lasting";
+     String lname57="lotus";
+     String lname58="colorbar";
+     String lname59="bobbi brow";
+     String lname60="loreal";
+     
+     
+     ref.remove(lname30);
+     System.out.println(ref.size());
+     
+     
+     Collection<String> lname=new ArrayList<String>(60);
+     Iterator itr7=city.iterator();
+  
+    
      
 	      
 	     
@@ -681,7 +1003,7 @@ System.out.println("enter lipsticks name");
 	      
 	      
 	      Collection ref7=new ArrayList();
-	      ref7.add(name1 );
+	      ref7.add(lname1 );
 	      ref7.add(lname2);
 	      ref7.add(lname3);
 	      ref7.add(lname4);
@@ -692,20 +1014,59 @@ System.out.println("enter lipsticks name");
 	      ref7.add( lname9);
 	      ref7.add( lname10);
 	      ref7.add (lname11);
+	      ref7.add(lname12);
+	      ref7.add(lname13);
+	      ref7.add(lname14);
+	      ref7.add(lname15);
+	      ref7.add(lname16);
+	      ref7.add (lname17);
+	      ref7.add(lname18);
+	      ref7.add( lname19);
+	      ref7.add( lname20);
+	      ref7.add (lname21);
+	      ref7.add(lname22);
+	      ref7.add(lname23);
+	      ref7.add(lname24);
+	      ref7.add(lname25);
+	      ref7.add(lname26);
+	      ref7.add (lname27);
+	      ref7.add(lname28);
+	      ref7.add( lname29);
+	      ref7.add( lname30);
+	      ref7.add (lname31);
+	      ref7.add(lname32);
+	      ref7.add(lname33);
+	      ref7.add(lname34);
+	      ref7.add(lname35);
+	      ref7.add(lname36);
+	      ref7.add (lname37);
+	      ref7.add(lname38);
+	      ref7.add( lname39);
+	      ref7.add( lname40);
+	      ref7.add (lname41);
+	      ref7.add(lname42);
+	      ref7.add(lname43);
+	      ref7.add(lname44);
+	      ref7.add(lname45);
+	      ref7.add(lname46);
+	      ref7.add (lname47);
+	      ref7.add(lname48);
+	      ref7.add( lname49);
+	      ref7.add( lname50);
+	      ref7.add (lname51);
+	      ref7.add(lname52);
+	      ref7.add(lname53);
+	      ref7.add(lname54);
+	      ref7.add(lname55);
+	      ref7.add(lname56);
+	      ref7.add (lname57);
+	      ref7.add(lname58);
+	      ref7.add( lname59);
+	      ref7.add( lname60);
 	      
 	      
 	      
-	      System.out.println(name1);
-	      System.out.println(lname2);
-	      System.out.println(lname3);
-	      System.out.println(lname4);
-	      System.out.println(lname5);
-	      System.out.println(lname6);
-	      System.out.println(lname7);
-	      System.out.println(lname8);
-	      System.out.println(lname9);
-	      System.out.println(lname10);
-	      System.out.println(lname11);
+	      System.out.println(ref7.size());
 	      
 	      
 	      
@@ -741,6 +1102,46 @@ System.out.println("enter the sweet name");
 	      String sweet28="chalimidi";
 	      String sweet29="Makkan peda";
 	      String sweet30="kaddu ki kheer";
+	      String sweet31="imarti";
+	      String sweet32="kaju";
+	      String sweet33="arisa";
+	      String sweet34="apple halwa";
+	      String sweet35="balushasi";
+	      String sweet36="boondi";
+	      String sweet37="gajar ka halwa";
+	      String sweet38="chevar";
+	      String sweet39="gulab jamun";
+	      String sweet40="imarti";
+	      String sweet41="jalebi";
+	      String sweet42="kaju";
+	      String sweet43="kalakanda";
+	      String sweet44="kheer";
+	      String sweet45="khirmohan";
+	      String sweet46="kulfi";
+	      String sweet47="laddu";
+	      String sweet48="motichoor";
+	      String sweet49="malpua";
+	      String sweet50="nankhatai";
+	      String sweet51="peda";
+	      String sweet52="Balushai";
+	      String sweet53="halwa";
+	      String sweet54="laddu";
+	      String sweet55="musorepak";
+	      String sweet56="sweet poli";
+	      String sweet57="sohan papadi";
+	      String sweet58="sohan";
+	      String sweet59="singori";
+	      String sweet60="peta";
+	      
+	      
+	      ref.remove(sweet30);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> sweet=new ArrayList<String>(60);
+		     Iterator itr8=sweet.iterator();
+	      
+	      
 	      
 	      
 	      
@@ -775,40 +1176,41 @@ System.out.println("enter the sweet name");
 	      obj.add (sweet28);
 	      obj.add( sweet29);
 	      obj.add( sweet30);
+	      obj.add(sweet31);
+	      obj.add(sweet32);
+	      obj.add(sweet33);
+	      obj.add(sweet34);
+	      obj.add(sweet35);
+	      obj.add(sweet36);
+	      obj.add (sweet37);
+	      obj.add(sweet38);
+	      obj.add(sweet39);
+	      obj.add( sweet40);
+	      obj.add (sweet41);
+	      obj.add (sweet42);
+	      obj.add(sweet43);
+	      obj.add(sweet44);
+	      obj.add (sweet45);
+	      obj.add(sweet46);
+	      obj.add(sweet47);
+	      obj.add(sweet48);
+	      obj.add (sweet49);
+	      obj.add (sweet50);
+	      obj.add( sweet51);
+	      obj.add(sweet52);
+	      obj.add (sweet53);
+	      obj.add(sweet54);
+	      obj.add (sweet55);
+	      obj.add(sweet56);
+	      obj.add (sweet57);
+	      obj.add (sweet58);
+	      obj.add( sweet59);
+	      obj.add( sweet60);
 	      
 	      
-	      System.out.println(sweet1);
-	      System.out.println(sweet2);
-	      System.out.println(sweet3);
-	      System.out.println(sweet4);
-	      System.out.println(sweet5);
-	      System.out.println(sweet6);
-	      System.out.println(sweet7);
-	      System.out.println(sweet8);
-	      System.out.println(sweet9);
-	      System.out.println(sweet10);
-	      System.out.println(sweet11);
-	      System.out.println(sweet12);
-	      System.out.println(sweet13);
-	      System.out.println(sweet14);
-	      System.out.println(sweet15);
-	      System.out.println(sweet16);
-	      System.out.println(sweet17);
-	      System.out.println(sweet18);
-	      System.out.println(sweet19);
-	      System.out.println(sweet20);
-	      System.out.println(sweet21);
-	      System.out.println(sweet22);
-	      System.out.println(sweet23);
-	      System.out.println(sweet24);
-	      System.out.println(sweet25);
-	      System.out.println(sweet26);
-	      System.out.println(sweet27);
-	      System.out.println(sweet28);
-	      System.out.println(sweet29);
-	      System.out.println(sweet30);
+	      System.out.println(obj.size());
 	      
-	      System.out.println("enter the sweet name");
+	      System.out.println("enter the webseries name");
 	      String webseriesname1="Friend";
 	      String webseriesname2="dexter";
 	      String webseriesname3="scrubs";
@@ -819,6 +1221,77 @@ System.out.println("enter the sweet name");
 	      String webseriesname8="Family man";
 	      String webseriesname9="panchayat";
 	      String webseriesname10="criminal justices";
+	      String webseriesname11="Friend";
+	      String webseriesname12="dexter";
+	      String webseriesname13="scrubs";
+	      String webseriesname14="breaking bad";
+	      String webseriesname15="seinfeld";
+	      String webseriesname16="mirpur";
+	      String webseriesname17="raikar";
+	      String webseriesname18="Family man";
+	      String webseriesname19="panchayat";
+	      String webseriesname20="criminal justices";
+	      String webseriesname21="Friend";
+	      String webseriesname22="dexter";
+	      String webseriesname23="scrubs";
+	      String webseriesname24="breaking bad";
+	      String webseriesname25="seinfeld";
+	      String webseriesname26="mirpur";
+	      String webseriesname27="raikar";
+	      String webseriesname28="Family man";
+	      String webseriesname29="panchayat";
+	      String webseriesname30="criminal justices";
+	      String webseriesname31="Friend";
+	      String webseriesname32="dexter";
+	      String webseriesname33="scrubs";
+	      String webseriesname34="breaking bad";
+	      String webseriesname35="seinfeld";
+	      String webseriesname36="mirpur";
+	      String webseriesname37="raikar";
+	      String webseriesname38="Family man";
+	      String webseriesname39="panchayat";
+	      String webseriesname40="criminal justices";
+	      String webseriesname41="Friend";
+	      String webseriesname42="dexter";
+	      String webseriesname43="scrubs";
+	      String webseriesname44="breaking bad";
+	      String webseriesname45="seinfeld";
+	      String webseriesname46="mirpur";
+	      String webseriesname47="raikar";
+	      String webseriesname48="Family man";
+	      String webseriesname49="panchayat";
+	      String webseriesname50="criminal justices";
+	      String webseriesname51="Friend";
+	      String webseriesname52="dexter";
+	      String webseriesname53="scrubs";
+	      String webseriesname54="breaking bad";
+	      String webseriesname55="seinfeld";
+	      String webseriesname56="mirpur";
+	      String webseriesname57="raikar";
+	      String webseriesname58="Family man";
+	      String webseriesname59="panchayat";
+	      String webseriesname60="criminal justices";
+	      
+	      
+	      
+	      ref.remove(webseriesname30);
+		     System.out.println(ref.size());
+		     
+		     
+		     Collection<String> webseries=new ArrayList<String>(60);
+		     Iterator itr9=webseries.iterator();
+		     
+		     
+		     
+		     
+		     while(itr9.hasNext()) {
+		 		System.out.println(itr8.next());
+		 	}
+		 	System.out.println(webseries.size());
+		 	System.out.println(webseries.isEmpty());
+		 	System.out.println(webseries.remove("panchayat"));
+		 	System.out.println(webseries.size());
+	      
 	      
 	      Collection obj1=new ArrayList();
 	      obj1.add(webseriesname1);
@@ -831,21 +1304,62 @@ System.out.println("enter the sweet name");
 	      obj1.add(webseriesname8);
 	      obj1.add(webseriesname9);
 	      obj1.add(webseriesname10);
+	      obj1.add(webseriesname11);
+	      obj1.add(webseriesname12);
+	      obj1.add(webseriesname13);
+	      obj1.add(webseriesname14);
+	      obj1.add(webseriesname15);
+	      obj1.add(webseriesname16);
+	      obj1.add(webseriesname17);
+	      obj1.add(webseriesname18);
+	      obj1.add(webseriesname19);
+	      obj1.add(webseriesname20);
+	      obj1.add(webseriesname21);
+	      obj1.add(webseriesname22);
+	      obj1.add(webseriesname23);
+	      obj1.add(webseriesname24);
+	      obj1.add(webseriesname25);
+	      obj1.add(webseriesname26);
+	      obj1.add(webseriesname27);
+	      obj1.add(webseriesname28);
+	      obj1.add(webseriesname29);
+	      obj1.add(webseriesname30);
+	      obj1.add(webseriesname31);
+	      obj1.add(webseriesname32);
+	      obj1.add(webseriesname33);
+	      obj1.add(webseriesname34);
+	      obj1.add(webseriesname35);
+	      obj1.add(webseriesname36);
+	      obj1.add(webseriesname37);
+	      obj1.add(webseriesname38);
+	      obj1.add(webseriesname39);
+	      obj1.add(webseriesname40);
+	      obj1.add(webseriesname41);
+	      obj1.add(webseriesname42);
+	      obj1.add(webseriesname43);
+	      obj1.add(webseriesname44);
+	      obj1.add(webseriesname45);
+	      obj1.add(webseriesname46);
+	      obj1.add(webseriesname47);
+	      obj1.add(webseriesname48);
+	      obj1.add(webseriesname49);
+	      obj1.add(webseriesname50);
+	      obj1.add(webseriesname51);
+	      obj1.add(webseriesname52);
+	      obj1.add(webseriesname53);
+	      obj1.add(webseriesname54);
+	      obj1.add(webseriesname55);
+	      obj1.add(webseriesname56);
+	      obj1.add(webseriesname57);
+	      obj1.add(webseriesname58);
+	      obj1.add(webseriesname59);
+	      obj1.add(webseriesname60);
 	       
 	       
 	       
 	       
-	      System.out.println(webseriesname1);
-	      System.out.println(webseriesname2);
-	      System.out.println(webseriesname3);
-	      System.out.println(webseriesname4);
-	      System.out.println(webseriesname5);
-	      System.out.println(webseriesname6);
-	      System.out.println(webseriesname7);
-	      System.out.println(webseriesname8);
-	      System.out.println(webseriesname9);
-	      System.out.println(webseriesname10);
-	     
+	      System.out.println(obj1.size());
+	      
 	       
 	       
 	        
